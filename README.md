@@ -1,7 +1,8 @@
-# Intro
+### Intro
 
 用于Docker环境下的`CI/CD`打包镜像，生成`Gradle依赖缓存层`，加快构建速度
 
+### Source Code
 - gradle.build
 
 ```java
@@ -93,9 +94,9 @@ static void copyDependenciesFiles(File rootFile, String source, String destRoot)
 }
 ```
 
-- 使用方法
+- Instructions
 ```
 ./gradlew resolveDependencies --scan --info
 ```
-- 使用例子
+- Example
 https://github.com/zf1976/vertx-ddns
