@@ -1,6 +1,6 @@
 ### Intro
 
-用于Docker环境下的`CI/CD`打包镜像，生成`Gradle依赖缓存层`，加快构建速度
+Used to package the image of `CI/CD` in Docker environment, generate `Gradle dependency caching layer`, speed up the construction 
 
 ### Source Code
 - gradle.build
