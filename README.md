@@ -97,3 +97,5 @@ static void copyDependenciesFiles(File rootFile, String source, String destRoot)
 ```
 ./gradlew resolveDependencies --scan --info
 ```
+- 使用例子
+https://github.com/zf1976/vertx-ddns
