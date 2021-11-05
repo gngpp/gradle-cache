@@ -22,6 +22,7 @@ task resolveDependencies {
                         resolveDependencies(it)
                     }
         }
+        // If you need to cache to the maven local warehouse, otherwise please comment it
         copyDependencies()
     }
 }
