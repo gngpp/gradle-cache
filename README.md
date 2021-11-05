@@ -5,7 +5,7 @@ Used to package the image of `CI/CD` in Docker environment, generate `Gradle dep
 ### Source Code
 - gradle.build
 
-```java
+```groovy
 task resolveDependencies {
     setDescription "Resolves all projects dependencies from the repository."
     setGroup "Build Server"
