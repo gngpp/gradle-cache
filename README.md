@@ -63,7 +63,7 @@ static def copyDependencies() {
     }
 }
 
-static void copyDependenciesFiles(File rootFile, String source, String destRoot) {
+static def copyDependenciesFiles(File rootFile, String source, String destRoot) {
     for (File subFile : rootFile.listFiles()) {
         if (subFile.getName() != ".DS_Store") {
             if (subFile.isDirectory()) {
